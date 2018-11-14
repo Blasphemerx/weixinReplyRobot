@@ -1,8 +1,9 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+**微信自动回复机器人——徐福v0.2版**
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+用于微信自动回复，和群内聊天。
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+*集成了[图灵机器人](http://www.tuling123.com/openapi/api)用于辅助聊天和自动回答。*
+*集成了[天气预报接口](http://t.weather.sojson.com/api/weather/city/101010100)用于查看天气状况。*
 
 ---
 
