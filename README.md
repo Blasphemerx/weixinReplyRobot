@@ -2,13 +2,13 @@
 
 用于微信自动回复，和群内聊天。
 
-*集成了[图灵机器人](http://www.tuling123.com/openapi/api)用于辅助聊天和自动回答。*
+*V0.1版：集成了[图灵机器人](http://www.tuling123.com/openapi/api)用于辅助聊天和自动回答。*
 
-*集成了[天气预报接口](http://t.weather.sojson.com/api/weather/city/101010100)用于查看天气状况。*
+*V0.2版：集成了[天气预报接口](http://t.weather.sojson.com/api/weather/city/101010100)用于查看天气状况。*
 
-*集成了[百度语音识别接口](http://vop.baidu.com/server_api)用于识别微信语音。*
+*V0.3版：集成了[百度语音识别接口](http://vop.baidu.com/server_api)用于识别微信语音。*
 
-*集成了[百度图片识别aip]用于识别微信图片。*
+*V0.4版：集成了[百度图片识别aip]用于识别微信图片。*
 
 ---
 
