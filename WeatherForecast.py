@@ -7,7 +7,7 @@ WEATHER_TODAY_FORMAT = "日期：{0}， 湿度：{1}， PM2.5：{2}， PM10：{3
 WEATHER_FORECAST_FORMAT = "日期：{0}， 日出时间：{1}， 最高温度：{2}， 最低温度：{3}， 日落时间：{4}， 空气指数：{5}， 风向：{6}， 风力：{7}， 天气：{8}， 建议：{9}"
 
 
-class WeatherForecast():
+class WeatherForecast:
 
     def __init__(self, city):
         if city is None or city == "":
