@@ -8,7 +8,7 @@
 
 *V0.3版：集成了[百度语音识别接口](http://vop.baidu.com/server_api)用于识别微信语音。*
 
-*V0.4版：集成了[百度图片识别aip]用于识别微信图片。*
+*V0.4版：集成了[百度图片识别aip](https://ai.baidu.com/docs#/ImageClassify-Python-SDK/496d7920)用于识别微信图片。*
 
 ---
 
