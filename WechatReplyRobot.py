@@ -14,7 +14,8 @@ itchat.auto_login()
 VERSION = "\n【徐福v0.4自动回复】"
 
 AUTO_REPLY_GROUPS = [{"group": u"WeChat测试", "switch": "off"}, {"group": u"505宿舍", "switch": "off"},
-                     {"group": u"家庭", "switch": "off"}, {"group": u"小团体", "switch": "off"}]
+                     {"group": u"家庭", "switch": "off"}, {"group": u"小团体", "switch": "off"},
+                     {"group": u"三人行", "switch": "off"}]
 OFF_KEY_WORDS = ["闭嘴", "shut up", "滚回去", "我会想你的", "解除", "解散"]
 ON_KEY_WORDS = ["徐福", "出现", "出来", "召唤", "聊聊", "聊5毛的", "聊10块钱的", "许个愿"]
 WEATHER_KEY_WORDS = ["天气", "天气如何", "weather"]
@@ -35,7 +36,8 @@ def tuling(info):
     :param info: 对话内容
     :return: 回答内容
     """
-    app_key = "e5ccc9c7c8834ec3b08940e290ff1559"
+    # app_key = "e5ccc9c7c8834ec3b08940e290ff1559"
+    app_key = "a8a97d67c6024377a29faf1fdae83832"
     url = "http://www.tuling123.com/openapi/api?key=%s&info=%s" % (app_key, info)
     req = requests.get(url)
     content = req.text
