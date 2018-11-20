@@ -50,7 +50,7 @@ class IR:
                 description = car.get("baike_info").get("description")
                 if description is None:
                     description = "无描述"
-                message += "\n" + name + "，出厂年份：" + year + "，（" + "可信度" + score + "）\n" + description
+                message += "\n" + name + "，出厂年份：" + year + "，（" + "可信度" + score + "%）\n" + description
             return message
         elif "动物" in type:
             animals = self.distinguish_animals(image)
@@ -61,7 +61,7 @@ class IR:
                 description = animal.get("baike_info").get("description")
                 if description is None:
                     description = "无描述"
-                message += "\n" + name + "：（" + "可信度" + score + "）\n" + description
+                message += "\n" + name + "：（" + "可信度" + score + "%）\n" + description
             return message
         elif "植物" in type:
             plants = self.distinguish_plants(image)
@@ -72,7 +72,7 @@ class IR:
                 description = plant.get("baike_info").get("description")
                 if description is None:
                     description = "无描述"
-                message += "\n" + name + "：（" + "可信度" + score + "）\n" + description
+                message += "\n" + name + "：（" + "可信度" + score + "%）\n" + description
             return message
         else:
             message = "图片可能为以下内容："
@@ -83,7 +83,7 @@ class IR:
                 description = content.get("baike_info").get("description")
                 if description is None:
                     description = "无描述"
-                message += "\n" + keyword + "：（" + "可信度" + score + "）\n" + description
+                message += "\n" + keyword + "：（" + "可信度" + score + "%）\n" + description
             return message
 
     def distinguish_general(self, image):
